@@ -2,7 +2,7 @@
 
 # 🤖 ML Engineer Roadmap 2026
 
-### Дорожная карта от студента ИТМО до Senior ML Engineer на российском рынке
+### Дорожная карта до Senior ML Engineer на российском рынке
 
 ![Status](https://img.shields.io/badge/status-active-success?style=for-the-badge)
 ![Level](https://img.shields.io/badge/level-junior→senior-blue?style=for-the-badge)
@@ -23,7 +23,7 @@
 
 ## 📍 О роудмапе
 
-> **Отправная точка:** студент 3 курса ИТМО, специальность «Робототехника и ИИ», базовые знания Data Engineering.
+> **Отправная точка:** базовые знания программирования и/или Data Engineering, понимание основ математики.
 > **Цель:** стать перспективным и хорошо оплачиваемым **ML Engineer** на российском рынке (Yandex, Sber, T-Bank, Avito, VK, Ozon, Wildberries, MTS AI и т.д.).
 > **Горизонт:** 12–18 месяцев активной работы до уверенного Middle.
 
@@ -33,7 +33,7 @@
 
 ```mermaid
 flowchart TD
-    A[🎓 Студент ИТМО<br/>Робототехника и ИИ] --> B[1️⃣ Foundations<br/>Python · Math · CS]
+    A[🚀 Старт] --> B[1️⃣ Foundations<br/>Python · Math · CS]
     B --> C[2️⃣ Data<br/>SQL · Pandas · Spark]
     C --> D[3️⃣ Classical ML<br/>sklearn · CatBoost · XGBoost]
     D --> E[4️⃣ Deep Learning<br/>PyTorch · CV · NLP]
@@ -71,7 +71,7 @@ flowchart TD
 
 ---
 
-## 🎯 Текущий приоритет (как студенту ИТМО)
+## 🎯 Примерный план
 
 ```mermaid
 gantt
@@ -164,6 +164,6 @@ gantt
 
 ### ⭐ Если роудмап полезен — поставь звезду
 
-**Made for myself by myself · ITMO · 2026**
+**Made for myself by myself · 2026**
 
 </div>

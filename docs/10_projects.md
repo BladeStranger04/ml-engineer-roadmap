@@ -34,7 +34,7 @@
 9. **🔥 End-to-end MLOps платформа** — модель + DVC + MLflow + k8s + Prometheus + Evidently
 10. **🔥 Fine-tune Saiga/T-lite через LoRA** под конкретную задачу + vLLM serving + бенчмарк качества
 
-### 🎓 По специальности (Робототехника + ИИ)
+### 🤖 Robotics + ML (если интересна область)
 11. **RL агент** для манипулятора в симуляторе (Isaac Sim / MuJoCo)
 12. **CV для робота**: детекция + трекинг + grasp prediction
 13. **VLA (Vision-Language-Action)** — мини-копия RT-2 на симуляторе
