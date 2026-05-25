@@ -1,5 +1,7 @@
 # 💬 6. Modern AI — NLP, LLM, RAG
 
+> English version: [06_modern_ai.md](../en/06_modern_ai.md)
+
 > Самая горячая и **самая высокооплачиваемая** ниша 2025–2026. В РФ — Yandex (YandexGPT, Алиса), Sber (GigaChat, Kandinsky), T-Bank, MTS AI, Avito.
 
 ---
