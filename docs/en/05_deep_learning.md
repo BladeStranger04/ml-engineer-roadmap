@@ -1,75 +1,76 @@
-# 5. Deep Learning
+# 🧠 5. Deep Learning
 
 > Russian version: [05_deep_learning.md](../ru/05_deep_learning.md)
 
-> PyTorch is the default practical stack. TensorFlow still appears, but less often.
+> In Russia, the de facto standard is **PyTorch**. TensorFlow exists too, but is less common.
 
 ---
 
-## Theory
+## 🎯 Theory
 
-- [ ] Fully connected networks, forward and backward pass
-- [ ] Backpropagation, derived by hand
-- [ ] Activations: ReLU, GELU, SiLU, sigmoid, tanh, softmax
-- [ ] Losses: MSE, BCE, CrossEntropy, focal, contrastive
+- [ ] Fully connected network, forward/backward pass
+- [ ] **Backpropagation** — derive it by hand
+- [ ] Activation functions: ReLU, GELU, SiLU, sigmoid, tanh, softmax
+- [ ] Loss functions: MSE, BCE, CrossEntropy, focal, contrastive
 - [ ] Optimizers: SGD, Momentum, Adam, AdamW, Lion
-- [ ] Regularization: dropout, batch norm, layer norm, weight decay, label smoothing
-- [ ] Weight initialization: Xavier, He
-- [ ] Vanishing and exploding gradients
+- [ ] Regularization: dropout, batch/layer norm, weight decay, label smoothing
+- [ ] Weight initialization (Xavier, He)
+- [ ] Vanishing / exploding gradients
 
 ---
 
-## Architectures
+## 🏗️ Architectures
 
-### Computer vision
-- [ ] CNNs: convolutions, pooling, receptive field
-- [ ] LeNet, AlexNet, VGG, ResNet, EfficientNet
+### Computer Vision
+- [ ] CNN: convolutions, pooling, receptive field
+- [ ] LeNet → AlexNet → VGG → ResNet → EfficientNet
 - [ ] Detection: YOLO, Faster R-CNN, DETR
 - [ ] Segmentation: U-Net, Mask R-CNN
-- [ ] Vision Transformer, Swin
+- [ ] Vision Transformer (ViT), Swin
 
 ### Sequences
-- [ ] RNN, LSTM, GRU for historical context
+- [ ] RNN, LSTM, GRU (for historical context)
 - [ ] Seq2Seq, Attention
-- [ ] Transformer as the main architecture
+- [ ] **Transformer** ← main topic; see next section
 
-### Generative models
+### Generative
 - [ ] Autoencoder, VAE
 - [ ] GAN, WGAN, StyleGAN
-- [ ] Diffusion: DDPM, Stable Diffusion, Kandinsky
+- [ ] Diffusion (DDPM, Stable Diffusion, Kandinsky by Sber)
 
 ---
 
-## PyTorch stack
+## 🛠️ PyTorch stack
 
-- [ ] PyTorch: `nn.Module`, autograd, custom datasets, DataLoader
-- [ ] PyTorch Lightning for cleaner training code
-- [ ] Hugging Face Transformers, Datasets, Accelerate
-- [ ] `timm` for pretrained CV models
-- [ ] Albumentations for augmentations
-- [ ] Weights & Biases or TensorBoard for logging
-- [ ] Mixed precision: `torch.amp`, `torch.compile`
-- [ ] Distributed training with DDP
+- [ ] **PyTorch** — `nn.Module`, autograd, custom datasets, DataLoader
+- [ ] **PyTorch Lightning** — cleaner code
+- [ ] **Hugging Face Transformers / Datasets / Accelerate**
+- [ ] **timm** — pretrained CV models
+- [ ] **Albumentations** — augmentations (Russian-made!)
+- [ ] **Weights & Biases** / **TensorBoard** — logging
+- [ ] Mixed precision (`torch.amp`), `torch.compile`
+- [ ] Distributed training (DDP)
 - [ ] GPU profiling
 
 ---
 
-## Resources
+## 📚 Resources
 
 | Resource | Level |
 |---|:---:|
-| [Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html), Andrej Karpathy | *** |
-| [Stanford CS231n](http://cs231n.stanford.edu/) | *** |
-| [Stanford CS224n](https://web.stanford.edu/class/cs224n/) | *** |
-| Deep Learning, Goodfellow, Bengio, Courville | *** |
-| [Dive into Deep Learning](https://d2l.ai/) | ** |
-| [PyTorch tutorials](https://pytorch.org/tutorials/) | ** |
-| [fast.ai Practical Deep Learning](https://course.fast.ai/) | ** |
+| 🥇 [Deep Learning School MIPT](https://dls.samcs.ru/) — **top Russian-language course** | ⭐⭐ |
+| 🥇 [Yandex School of Data Analysis — Deep Learning Handbook](https://education.yandex.ru/handbook/ml) | ⭐⭐⭐ |
+| 🎥 [Stanford CS231n](http://cs231n.stanford.edu/) — CV | ⭐⭐⭐ |
+| 🎥 [Stanford CS224n](https://web.stanford.edu/class/cs224n/) — NLP | ⭐⭐⭐ |
+| 📘 "Deep Learning" — Goodfellow | ⭐⭐⭐ |
+| 📘 "Dive into Deep Learning" (d2l.ai) — has RU translation | ⭐⭐ |
+| 🎥 [karpov.courses — DL](https://karpov.courses/) | ⭐⭐ |
+| 🎥 Andrej Karpathy — Neural Networks: Zero to Hero | ⭐⭐⭐ |
 
 ---
 
-## Checkpoint projects
+## ✅ Checkpoint projects
 
-1. Implement an MLP and backpropagation from scratch with NumPy.
-2. Train a ResNet-like model on CIFAR-100 and improve it with augmentations.
-3. Fine-tune a pretrained model for your own task and deploy it with FastAPI.
+1. Write **MLP + backprop without autograd** from scratch in NumPy.
+2. Train a **ResNet-like model** on CIFAR-100 and squeeze performance through augmentations.
+3. **Fine-tune** a pretrained model for your own task + deploy through FastAPI.

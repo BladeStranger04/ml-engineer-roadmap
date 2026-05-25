@@ -1,97 +1,96 @@
-# 6. Modern AI: NLP, LLM, RAG
+# 💬 6. Modern AI — NLP, LLM, RAG
 
 > Russian version: [06_modern_ai.md](../ru/06_modern_ai.md)
 
-> LLM and RAG work is one of the most active ML hiring areas in 2025-2026.
+> The hottest and **highest-paid** niche in 2025–2026. In Russia: Yandex (YandexGPT, Alice), Sber (GigaChat, Kandinsky), T-Bank, MTS AI, Avito.
 
 ---
 
-## Classical NLP
+## 📝 Classical NLP
 
-- [ ] Tokenization: BPE, WordPiece, SentencePiece
+- [ ] Tokenization (BPE, WordPiece, SentencePiece)
 - [ ] Word embeddings: Word2Vec, GloVe, FastText
-- [ ] TF-IDF, BM25, important for RAG
+- [ ] TF-IDF, BM25 (important for RAG!)
 - [ ] Named Entity Recognition, sentiment analysis
-- [ ] spaCy, NLTK, Natasha for Russian NLP
+- [ ] spaCy, NLTK, Natasha (RU NLP)
 
 ---
 
-## Transformers
+## 🔥 Transformers
 
-- [ ] Read Attention Is All You Need
-- [ ] Self-attention, multi-head attention, positional encoding, RoPE, ALiBi
-- [ ] Encoder models: BERT
-- [ ] Decoder models: GPT
-- [ ] Encoder-decoder models: T5
+- [ ] **Attention is All You Need** — read the original paper **yourself**
+- [ ] Self-attention, multi-head, positional encoding (RoPE, ALiBi)
+- [ ] Encoder (BERT) vs Decoder (GPT) vs Encoder-Decoder (T5)
 - [ ] Pre-training: MLM, CLM, NSP
 - [ ] Fine-tuning vs prompt engineering vs in-context learning
 
 ---
 
-## Large Language Models
+## 🤖 Large Language Models
 
-- [ ] GPT-style architecture
-- [ ] Scaling laws, Chinchilla
-- [ ] Tokenization details, KV-cache
-- [ ] Instruction tuning, RLHF, DPO
-- [ ] Quantization: GPTQ, AWQ, bitsandbytes
-- [ ] PEFT, LoRA, QLoRA
-- [ ] Inference optimization: vLLM, TGI, llama.cpp, Triton Inference Server
+- [ ] Architecture of GPT-style models
+- [ ] Scaling laws (Chinchilla)
+- [ ] Tokenization tricks, KV-cache
+- [ ] **Instruction tuning, RLHF, DPO**
+- [ ] Quantization (GPTQ, AWQ, bitsandbytes)
+- [ ] **PEFT / LoRA / QLoRA** — fine-tune on your own hardware
+- [ ] Inference optimization: vLLM, TGI, llama.cpp, **Triton Inference Server**
 
-### Russian-market LLMs
-- [ ] YandexGPT API
-- [ ] GigaChat API
+### Russian LLMs
+- [ ] **YandexGPT** API
+- [ ] **GigaChat** API (Sber)
 - [ ] Open-source: Saiga, ruGPT, T-lite
 
 ---
 
-## RAG
+## 🔎 RAG (Retrieval-Augmented Generation)
 
-- [ ] Pipeline: chunking, embeddings, vector DB, retrieve, rerank, generate
-- [ ] Embedding models: e5, BGE, sbert
-- [ ] Russian-friendly embeddings: `intfloat/multilingual-e5`, `ai-forever/sbert_large_nlu_ru`
-- [ ] Vector DB: Qdrant, Milvus, pgvector
-- [ ] Hybrid search: BM25 + dense retrieval
-- [ ] Rerankers: Cohere, BGE-reranker
-- [ ] Frameworks: LangChain, LlamaIndex, Haystack
-- [ ] RAG evaluation: Ragas, custom golden dataset
+> The most in-demand product pattern in 2025–2026.
+
+- [ ] Pipeline: chunking → embeddings → vector DB → retrieve → rerank → generate
+- [ ] Embedding models (e5, BGE, sbert), Russian: `intfloat/multilingual-e5`, `ai-forever/sbert_large_nlu_ru`
+- [ ] **Vector DB**: **Qdrant** (Russian!), Milvus, pgvector
+- [ ] Hybrid search (BM25 + dense)
+- [ ] Rerankers (Cohere, BGE-reranker)
+- [ ] Frameworks: **LangChain**, **LlamaIndex**, **Haystack**
+- [ ] RAG quality evaluation (ragas, your own golden dataset)
 
 ---
 
-## Modern CV and multimodal
+## 👁️ Modern CV
 
 - [ ] CLIP, SAM, DINOv2
-- [ ] Multimodal models: LLaVA, Qwen-VL
-- [ ] Diffusion: Stable Diffusion, ControlNet, LoRA for SD
-- [ ] Kandinsky: useful for Russian-market projects
+- [ ] Multimodal: LLaVA, Qwen-VL
+- [ ] Diffusion: SD, ControlNet, LoRA for SD
+- [ ] **Kandinsky** (Sber) — open-source, can be fine-tuned
 
 ---
 
-## Agents
+## 🤝 Agents
 
-- [ ] Function and tool calling
+- [ ] Function/tool calling
 - [ ] ReAct, plan-and-execute
-- [ ] Multi-agent systems: CrewAI, AutoGen
-- [ ] MCP, Model Context Protocol
+- [ ] Multi-agent (CrewAI, AutoGen)
+- [ ] MCP (Model Context Protocol)
 
 ---
 
-## Resources
+## 📚 Resources
 
 | Resource | Level |
 |---|:---:|
-| [Hugging Face NLP Course](https://huggingface.co/learn/nlp-course) | ** |
-| [Stanford CS224n](https://web.stanford.edu/class/cs224n/) | *** |
-| [Let's build GPT](https://www.youtube.com/watch?v=kCc8FmEb1nY), Andrej Karpathy | *** |
-| Build a Large Language Model from Scratch, Sebastian Raschka | *** |
-| [Full Stack Deep Learning](https://fullstackdeeplearning.com/) | ** |
-| [LangChain docs](https://python.langchain.com/docs/) | * |
-| [LlamaIndex docs](https://docs.llamaindex.ai/) | * |
+| 🥇 [Hugging Face NLP Course](https://huggingface.co/learn/nlp-course) | ⭐⭐ |
+| 🥇 [Stanford CS224n](https://web.stanford.edu/class/cs224n/) | ⭐⭐⭐ |
+| 🎥 Andrej Karpathy — "Let's build GPT" / nanoGPT | ⭐⭐⭐ |
+| 🎥 [GPT School — Alexey Zhdanov](https://www.youtube.com/@gptchatru) | ⭐ |
+| 📘 "Build a Large Language Model from Scratch" — Sebastian Raschka | ⭐⭐⭐ |
+| 🎥 [karpov.courses — NLP / LLM](https://karpov.courses/) | ⭐⭐ |
+| 📚 [ai-russia.ru](https://ai-russia.ru/) — RU model reviews | ⭐ |
 
 ---
 
-## Checkpoint projects
+## ✅ Checkpoint projects
 
-1. Build a GPT-mini model from scratch, following nanoGPT, and train it on a small corpus.
-2. Build a RAG bot over your own knowledge base: documents, Qdrant, LLM API, Telegram bot.
-3. Fine-tune Saiga or T-lite with LoRA and serve it with vLLM.
+1. Write **GPT-mini** from scratch (nanoGPT-style) and train it on a Russian dataset.
+2. **RAG bot over your own knowledge base**: documents → Qdrant → YandexGPT/GigaChat → Telegram bot.
+3. **Fine-tune Saiga / T-lite** through LoRA for your own task and deploy through vLLM.

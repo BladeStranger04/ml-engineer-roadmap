@@ -1,59 +1,60 @@
-# 1. Foundations: Python, algorithms, CS
+# 🐍 1. Foundations — Python, algorithms, CS
 
 > Russian version: [01_foundations.md](../ru/01_foundations.md)
 
-> **Goal:** write production-ready Python, understand core computer science, and pass coding interview rounds.
+> **Stage goal:** write production code in Python confidently, understand how computers work, and pass algorithmic interview rounds.
 
 ---
 
-## What an ML Engineer should know
+## 🎯 What an ML Engineer should know
 
-### Python advanced
-- [ ] Data types, mutability, `copy` / `deepcopy`
+### Python (Advanced)
+- [ ] Data types, mutable/immutable, copy/deepcopy
 - [ ] OOP: classes, inheritance, mixins, dataclasses, `__slots__`
 - [ ] Decorators, context managers, generators, iterators
-- [ ] Type hints, `typing`, `mypy`, `pydantic`
-- [ ] Async programming: `asyncio`, `async` / `await`
-- [ ] Threads vs processes, GIL
-- [ ] Testing: `pytest`, fixtures, mocks, coverage
-- [ ] Dependency management: `poetry`, `uv`, `pip-tools`
-- [ ] Linters and formatters: `ruff`, `black`, `pre-commit`
+- [ ] Typing (`typing`, `mypy`), `pydantic`
+- [ ] Async: `asyncio`, `async/await`
+- [ ] Multithreading vs multiprocessing, GIL
+- [ ] Tests: `pytest`, fixtures, mocks, coverage
+- [ ] Dependency management: `poetry` / `uv` / `pip-tools`
+- [ ] Linters/formatters: `ruff`, `black`, `pre-commit`
 
-### Computer science
+### Computer Science
 - [ ] Data structures: list, dict, set, deque, heap, trie
-- [ ] Algorithms: sorting, BFS/DFS, dynamic programming, two pointers, sliding window
-- [ ] Time and memory complexity, Big-O
+- [ ] Algorithms: sorting, BFS/DFS, DP, two pointers, sliding window
+- [ ] Time and memory complexity (Big-O)
 - [ ] OS basics: processes, threads, memory, IPC
 - [ ] Networking: HTTP/HTTPS, TCP/UDP, REST, gRPC, WebSockets
 
 ### Developer tools
-- [ ] Git: branching, rebase, conflict resolution, hooks
-- [ ] Linux: shell, `grep` / `sed` / `awk`, systemd, ssh, tmux
-- [ ] IDE: PyCharm or VS Code
-- [ ] Docker basics, deeper practice in MLOps
+- [ ] Git: branching, rebase, conflict resolution, git hooks
+- [ ] Linux: bash, grep/sed/awk, systemd, ssh, screen/tmux
+- [ ] IDE: PyCharm / VS Code + plugins
+- [ ] Docker basics; deeper dive in MLOps
 
 ---
 
-## Resources
+## 📚 Resources
 
 | Type | Resource | Level |
 |---|---|:---:|
-| Book | Fluent Python, Luciano Ramalho | *** |
-| Course | [CS50P](https://cs50.harvard.edu/python/) | * |
-| Course | [Algorithms, Part I](https://www.coursera.org/learn/algorithms-part1) | ** |
-| Practice | [LeetCode](https://leetcode.com) - 100-150 Easy/Medium problems | ** |
-| Practice | [Codeforces](https://codeforces.com) | ** |
-| Linux | [The Missing Semester](https://missing.csail.mit.edu/) | ** |
-| Git | [Pro Git](https://git-scm.com/book/en/v2) | ** |
+| 📖 Book | "Fluent Python" by Luciano Ramalho | ⭐⭐⭐ |
+| 🎥 Course | [Generation Python (Stepik)](https://stepik.org/course/58852) | ⭐ |
+| 🎥 Course | [Algorithms: Theory and Practice — Computer Science Center](https://stepik.org/course/217) | ⭐⭐ |
+| 🎥 Course | [Yandex School of Data Analysis — Algorithms and Data Structures](https://education.yandex.ru/handbook/algorithms) | ⭐⭐⭐ |
+| 💻 Practice | [LeetCode](https://leetcode.com) — 100–150 Easy/Medium problems | ⭐⭐ |
+| 💻 Practice | [Codeforces](https://codeforces.com) | ⭐⭐ |
+| 🎥 Linux | [Introduction to Linux (Stepik)](https://stepik.org/course/73) | ⭐ |
+| 🎥 Git | [Git for beginners — Khiryanov](https://www.youtube.com/watch?v=zZBiln_2FhM) | ⭐ |
 
 ---
 
-## Checkpoint project
+## ✅ Checkpoint project
 
-Build a Python CLI tool that:
-- parses CSV and JSON,
-- calculates basic statistics,
-- is covered with `pytest` tests, target 80%+ coverage,
-- is packaged with `poetry` or `uv`,
+Write a Python **CLI utility** that:
+- parses CSV/JSON,
+- calculates simple statistics,
+- is covered with `pytest` tests (≥80% coverage),
+- is packaged with `poetry`,
 - has a `Dockerfile`,
-- is published on GitHub with README and GitHub Actions for linting and tests.
+- is published on GitHub with README + GitHub Actions (lint + tests).

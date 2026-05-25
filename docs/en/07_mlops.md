@@ -1,109 +1,115 @@
-# 7. MLOps & Production
+# ⚙️ 7. MLOps & Production
 
 > Russian version: [07_mlops.md](../ru/07_mlops.md)
 
-> The difference between an ML Engineer and a Data Scientist is often the ability to ship, monitor, and maintain models in production.
+> The main difference between an ML Engineer and a Data Scientist is the ability to bring a model **to production** and support it there. This is what senior salaries pay for.
 
 ---
 
-## Containers
+## 🐳 Containerization
 
-- [ ] Docker: Dockerfile, multi-stage build, slim images
+- [ ] **Docker**: Dockerfile, multi-stage build, slim images
 - [ ] docker-compose
-- [ ] Kubernetes basics: pod, deployment, service, ingress, configmap
-- [ ] Helm charts basics
-- [ ] GPU containers with `nvidia-container-toolkit`
+- [ ] **Kubernetes** (minimum): pod, deployment, service, ingress, configmap
+- [ ] Helm charts (overview)
+- [ ] GPU in containers (`nvidia-container-toolkit`)
 
 ---
 
-## Versioning
+## 📦 Versioning
 
-- [ ] Git for code
-- [ ] DVC or LakeFS for data
-- [ ] MLflow Model Registry or Weights & Biases Artifacts for models
-- [ ] Model cards
-
----
-
-## Experiments
-
-- [ ] MLflow Tracking: runs, metrics, artifacts
-- [ ] Weights & Biases
-- [ ] ClearML
-- [ ] Hydra / OmegaConf for experiment configs
+- [ ] **Git** for code
+- [ ] **DVC** / **LakeFS** for data
+- [ ] **MLflow Model Registry** / **Weights & Biases Artifacts** for models
+- [ ] Model Cards
 
 ---
 
-## Serving
+## 🔬 Experiments
 
-| Approach | Use when |
+- [ ] **MLflow Tracking** — runs, metrics, artifacts
+- [ ] **Weights & Biases** — newer, more convenient
+- [ ] **ClearML** — Russian option, formerly Allegro
+- [ ] Hydra / OmegaConf — experiment configs
+
+---
+
+## 🚀 Serving (Inference)
+
+| Approach | When to use |
 |---|---|
-| FastAPI + Uvicorn | simple models, REST / JSON |
-| gRPC | low latency, binary payloads |
-| Triton Inference Server | production GPU, multiple models |
-| TorchServe | PyTorch-only serving |
-| Ray Serve | scaling and autoscaling |
-| vLLM / TGI | LLM inference |
-| ONNX Runtime / TensorRT | hardware optimization |
+| **FastAPI + Uvicorn** | simple models, REST/JSON |
+| **gRPC** | low latency, binary data |
+| **Triton Inference Server** | production GPU, multiple models |
+| **TorchServe** | PyTorch-only |
+| **Ray Serve** | scaling, autoscaling |
+| **vLLM / TGI** | LLM inference |
+| **ONNX Runtime / TensorRT** | hardware optimization |
 
 - [ ] Request batching
-- [ ] Caching with Redis
-- [ ] A/B testing for models
-- [ ] Canary and shadow deployments
+- [ ] Caching (Redis)
+- [ ] A/B testing models in production
+- [ ] Canary / shadow deployment
 
 ---
 
-## CI/CD for ML
+## 🔄 CI/CD for ML
 
-- [ ] GitHub Actions or GitLab CI
-- [ ] Pre-commit hooks, linting, tests
-- [ ] CI flow: lint, tests, train, eval, deploy
-- [ ] Continuous training by schedule or trigger
-- [ ] Feature stores: Feast
+- [ ] **GitHub Actions** / **GitLab CI** — main options in Russia
+- [ ] Pre-commit hooks, lint, tests
+- [ ] CI: lint → tests → train → eval → deploy
+- [ ] **CT (Continuous Training)** — retraining by schedule/trigger
+- [ ] Feature stores: **Feast**
 
 ---
 
-## Monitoring
+## 📊 Monitoring
 
-- [ ] Prometheus + Grafana for service metrics
-- [ ] Sentry for errors
-- [ ] ML metrics: latency, throughput, RPS, data drift, concept drift, prediction distribution
-- [ ] Evidently AI for ML monitoring
+- [ ] **Prometheus + Grafana** — service metrics
+- [ ] **Sentry** — errors
+- [ ] ML-specific metrics:
+  - latency, throughput, RPS
+  - data drift, concept drift
+  - prediction distribution
+- [ ] **Evidently AI** — ML monitoring, open source, Russian-made
 - [ ] Alerting
 
 ---
 
-## Platforms
+## 🏗️ Platforms you may see in Russia
 
-- Yandex DataSphere and Yandex Cloud ML
-- Cloud.ru / SberCloud
-- VK Cloud
-- Selectel ML platform
-- Internal ML platforms at larger companies
+- **Yandex DataSphere** + **Yandex Cloud ML** — Yandex
+- **Cloud.ru / SberCloud** — Sber
+- **VK Cloud** — VK
+- **Selectel ML platform**
+- Internal platforms (T-Bank, Avito, X5)
 
 ---
 
-## Resources
+## 📚 Resources
 
 | Resource | Level |
 |---|:---:|
-| [Made With ML](https://madewithml.com/) | *** |
-| Designing Machine Learning Systems, Chip Huyen | *** |
-| Machine Learning Engineering, Andriy Burkov | ** |
-| [MLOps Community](https://www.youtube.com/@MLOps) | ** |
-| [Awesome MLOps](https://github.com/visenger/awesome-mlops) | - |
+| 🥇 [Made With ML — MLOps course](https://madewithml.com/) | ⭐⭐⭐ |
+| 🎥 [karpov.courses — MLOps](https://karpov.courses/mlops) | ⭐⭐ |
+| 📘 "Designing Machine Learning Systems" — Chip Huyen | ⭐⭐⭐ |
+| 📘 "Machine Learning Engineering" — Andriy Burkov | ⭐⭐ |
+| 🎥 [MLOps Community (YouTube)](https://www.youtube.com/@MLOps) | ⭐⭐ |
+| 📚 [Awesome MLOps](https://github.com/visenger/awesome-mlops) | — |
 
 ---
 
-## Checkpoint project
+## ✅ Checkpoint project
 
-Build an end-to-end ML system:
-1. Train a CatBoost or PyTorch model.
-2. Log experiments in MLflow.
-3. Version data with DVC.
-4. Wrap inference in Docker + FastAPI.
-5. Add CI/CD through GitHub Actions.
-6. Deploy to Kubernetes, minikube is enough.
-7. Add Prometheus + Grafana dashboards.
-8. Add Evidently drift monitoring.
-9. Document the architecture in README.
+**End-to-end ML system:**
+1. Train a model (CatBoost / PyTorch)
+2. Log experiments in MLflow
+3. Version data with DVC
+4. Wrap it in Docker + FastAPI
+5. CI/CD through GitHub Actions
+6. Deploy to k8s (minikube is fine)
+7. Prometheus + Grafana dashboard
+8. Evidently for drift monitoring
+9. README with an architecture diagram
+
+→ This is a **very strong pet project** for your resume.

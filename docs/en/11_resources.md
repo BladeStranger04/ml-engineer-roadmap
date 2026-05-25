@@ -1,83 +1,103 @@
-# 11. Resources
+# 📖 11. Resources, Mostly RU
 
 > Russian version: [11_resources.md](../ru/11_resources.md)
 
 ---
 
-## Main sources
+## 🥇 Main Sources
 
-| Resource | Topic | Cost |
+| Resource | About | Cost |
 |---|---|:---:|
-| [Hands-On Machine Learning](https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/) | practical ML | paid |
-| [Dive into Deep Learning](https://d2l.ai/) | deep learning | free |
-| [Hugging Face Learn](https://huggingface.co/learn) | NLP, transformers, agents | free |
-| [Made With ML](https://madewithml.com/) | ML engineering and MLOps | free |
-| [Full Stack Deep Learning](https://fullstackdeeplearning.com/) | production DL | free |
-| [Kaggle Learn](https://www.kaggle.com/learn) | practical ML exercises | free |
+| 🔗 [Yandex School of Data Analysis ML Handbook](https://education.yandex.ru/handbook/ml) | Yandex textbook from ML to DL | 🆓 |
+| 🔗 [Deep Learning School MIPT](https://dls.samcs.ru/) | Full DL course in Russian | 🆓 |
+| 🔗 [mlcourse.ai (ODS)](https://mlcourse.ai/) | Classical ML | 🆓 |
+| 🔗 [ODS.ai Slack](https://opendatascience.slack.com) | ML community in Russia | 🆓 |
+| 🔗 [karpov.courses](https://karpov.courses/) | Paid courses: ML, MLOps, DE, A/B | 💰 |
+| 🔗 [Stepik](https://stepik.org/) | Many free courses | 🆓/💰 |
 
 ---
 
-## Courses
+## 🎓 Russian Schools / Master's Programs
 
-- [CS50P](https://cs50.harvard.edu/python/)
-- [MIT Missing Semester](https://missing.csail.mit.edu/)
-- [Stanford CS231n](http://cs231n.stanford.edu/)
-- [Stanford CS224n](https://web.stanford.edu/class/cs224n/)
-- [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)
-- [fast.ai Practical Deep Learning](https://course.fast.ai/)
-- [MLOps Zoomcamp](https://github.com/DataTalksClub/mlops-zoomcamp)
-
----
-
-## YouTube
-
-- 3Blue1Brown
-- StatQuest
-- Andrej Karpathy
-- Yannic Kilcher
-- Two Minute Papers
-- MLOps Community
-- Full Stack Deep Learning
+- **Yandex School of Data Analysis** — main DS/ML school in Russia, free, offline/online
+- **AI Talent Hub ITMO** — AI programs
+- **AIRI** — AI Research Institute, Moscow, Skoltech
+- **MIPT — DLS / FPMI**
+- **HSE — Faculty of Computer Science**, Master's program in Machine Learning and High-load Systems
+- **Skoltech** — CDISE
+- **School 21** by Sber, free, peer-to-peer format
 
 ---
 
-## Books
+## 📺 YouTube Channels (RU)
 
-1. Hands-On Machine Learning, Aurelien Geron.
-2. Deep Learning, Goodfellow, Bengio, Courville.
-3. Designing Machine Learning Systems, Chip Huyen.
-4. Pattern Recognition and Machine Learning, Bishop.
-5. Probabilistic Machine Learning, Kevin Murphy.
-6. Build a Large Language Model from Scratch, Sebastian Raschka.
-7. Fluent Python, Luciano Ramalho.
+- **Deep Learning School** — MIPT lectures
+- **Computer Science Center**
+- **karpov.courses**
+- **Khiryanov** — Python and algorithms
+- **Gradient** — ML paper reviews in Russian
+- **AI Today** — product AI
 
----
+## 📺 YouTube (EN, must-watch)
 
-## Industry tracking
-
-- [The Batch](https://www.deeplearning.ai/the-batch/)
-- [Import AI](https://jack-clark.net/)
-- [Latent Space](https://www.latent.space/)
-- [Hugging Face blog](https://huggingface.co/blog)
-- [Papers with Code](https://paperswithcode.com/)
-- [arXiv Sanity](https://arxiv-sanity-lite.com/)
+- **3Blue1Brown** — math
+- **StatQuest** — statistics
+- **Andrej Karpathy** — DL/LLM from scratch
+- **Yannic Kilcher** — paper reviews
+- **Two Minute Papers**
 
 ---
 
-## Cheat sheets and repositories
+## 📚 Books, by Priority
 
-- [Awesome MLOps](https://github.com/visenger/awesome-mlops)
-- [Eugene Yan applied-ml](https://github.com/eugeneyan/applied-ml)
-- [Machine Learning Interviews](https://github.com/alirezadir/Machine-Learning-Interviews)
-- [Hugging Face cookbook](https://huggingface.co/learn/cookbook)
-- [Made With ML repository](https://github.com/GokuMohandas/Made-With-ML)
+1. 🥇 **"Hands-On Machine Learning"** — Aurélien Géron, has RU translation
+2. 🥇 **"Deep Learning"** — Goodfellow, Bengio, has RU translation
+3. 🥇 **"Designing Machine Learning Systems"** — Chip Huyen
+4. **"Pattern Recognition and Machine Learning"** — Bishop
+5. **"Probabilistic ML"** — Kevin Murphy
+6. **"Build a LLM from Scratch"** — Sebastian Raschka
+7. **"Fluent Python"** — Ramalho
 
 ---
 
-## Free practice resources
+## 📰 Where to Follow the Industry
 
-- Kaggle competitions and datasets.
-- Google Colab free GPU.
-- Hugging Face Spaces.
-- GitHub Codespaces.
-- Public datasets: UCI, OpenML, Hugging Face Datasets, Kaggle.
+- **Habr** — tags [machine_learning, ml, llm]
+- **Telegram channels**:
+  - Сиолошная, Igor Kotenkov
+  - Метаверсище и ИИще
+  - AI для всех
+  - Speech Info
+  - Data Eng
+  - DLStories
+  - эйай ньюз
+- **Podcasts**:
+  - Data Coffee
+  - Yandex AI podcast
+  - Запуск завтра, T-Bank
+- **Conferences**:
+  - **AI Journey** by Sber, November
+  - **Data Fest** by ODS, summer
+  - **Yandex Scale**
+  - **Practical ML Conf**
+  - **OpenTalks.AI**
+
+---
+
+## 🛠️ Cheat Sheets and Repositories
+
+- 🔗 [Awesome MLOps](https://github.com/visenger/awesome-mlops)
+- 🔗 [Eugene Yan applied-ml](https://github.com/eugeneyan/applied-ml)
+- 🔗 [ml-engineer-roadmap (en)](https://github.com/chris-chris/ml-engineer-roadmap)
+- 🔗 [Yandex ML Handbook](https://github.com/yandexdataschool)
+- 🔗 [Hugging Face cookbook](https://huggingface.co/learn)
+
+---
+
+## 💸 Free Resources for Practice
+
+- **Kaggle** — competitions + datasets + free GPU/TPU
+- **Google Colab** — free GPUs
+- **Yandex DataSphere** — has free credits
+- **Hugging Face Spaces** — free model deployment
+- **GitHub Codespaces** — cloud IDE

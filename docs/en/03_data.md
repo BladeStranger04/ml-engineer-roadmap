@@ -1,85 +1,86 @@
-# 3. Data Engineering for ML
+# 🗄️ 3. Data Engineering for ML
 
 > Russian version: [03_data.md](../ru/03_data.md)
 
-> ML Engineers need data engineering skills to build real systems, not just notebooks.
+> If you already have DE basics, that is a huge plus. An ML Engineer without DE skills is limited in real-world tasks. Here is what you **must** strengthen and lock in.
 
 ---
 
-## SQL advanced
+## 🔍 SQL (Advanced)
 
-- [ ] Joins: inner, left, full, cross, semi, anti
-- [ ] Window functions: `ROW_NUMBER`, `LAG` / `LEAD`, `SUM() OVER`
-- [ ] CTEs and recursive CTEs
-- [ ] Subqueries, `EXISTS` vs `IN`
-- [ ] Indexes, `EXPLAIN`, query optimization
+- [ ] JOINs (INNER, LEFT, FULL, CROSS, SEMI, ANTI)
+- [ ] Window functions: `ROW_NUMBER`, `LAG/LEAD`, `SUM() OVER`
+- [ ] CTEs, recursive CTEs
+- [ ] Subqueries, EXISTS vs IN
+- [ ] Indexes, EXPLAIN, optimization
 - [ ] Partitioning, sharding
-- [ ] PostgreSQL and ClickHouse
+- [ ] PostgreSQL, ClickHouse (de facto standard in Russia: Yandex Metrica, VK, Avito)
 
-**Resources:**
-- [Mode SQL Tutorial](https://mode.com/sql-tutorial/)
-- [SQLBolt](https://sqlbolt.com/)
-- [DataLemur](https://datalemur.com/)
-- [ClickHouse docs](https://clickhouse.com/docs)
+📚 **Resources:**
+- [Stepik — Introduction to SQL](https://stepik.org/course/63054)
+- [SQL-EX](https://sql-ex.ru/) — exercises
+- [DataLemur](https://datalemur.com/) — interview-style tasks
+- [ClickHouse documentation](https://clickhouse.com/docs/ru)
 
 ---
 
-## Pandas, Polars, NumPy
+## 🐼 Pandas / Polars / NumPy
 
 - [ ] NumPy: vectorization, broadcasting, fancy indexing
-- [ ] Pandas: groupby, merge, pivot, `apply` vs vectorization
-- [ ] Memory optimization: `category`, smaller integer types
-- [ ] Polars: lazy execution, faster dataframe workflows
-- [ ] EDA: dataset profiles, missing values, anomalies
+- [ ] Pandas: groupby, merge, pivot, apply vs vectorize
+- [ ] Memory optimization (`category`, `int8`)
+- [ ] **Polars** — modern Pandas alternative: faster, lazy execution plan
+- [ ] EDA: dataset profiling, anomaly search
 
 ---
 
-## Big data stack
+## 🚀 Big Data Stack
 
-- [ ] Apache Spark, PySpark
-- [ ] DataFrame API and Spark SQL
-- [ ] Partitioning, broadcast joins
-- [ ] UDF and Pandas UDF
-- [ ] Hadoop / HDFS basics
-- [ ] Hive, Trino, Presto
+- [ ] **Apache Spark** (PySpark) — main tool in Russian Tier-1 companies
+  - DataFrame API, Spark SQL
+  - Partitioning, broadcast join
+  - UDF, Pandas UDF
+- [ ] **Hadoop / HDFS** — overview
+- [ ] **Hive / Trino / Presto** — SQL over big data
 
 ---
 
-## Orchestration and pipelines
+## 🌬️ Orchestration and Pipelines
 
-- [ ] Apache Airflow: DAGs, operators, sensors, TaskFlow API
-- [ ] XCom, branching, dynamic DAGs
-- [ ] dbt for warehouse transformations
+- [ ] **Apache Airflow** — gold standard in Russia
+  - DAG, operators, sensors, TaskFlow API
+  - XCom, branching, dynamic DAGs
+- [ ] **dbt** — transformations in DWH
 - [ ] Alternatives: Prefect, Dagster
 
 ---
 
-## Streaming
+## 📨 Streaming
 
-- [ ] Apache Kafka: producers, consumers, topics, partitions
-- [ ] Spark Streaming and Flink basics
-- [ ] Online features and real-time inference use cases
+- [ ] **Apache Kafka** (producers/consumers, topics, partitions)
+- [ ] Spark Streaming / Flink (overview)
+- [ ] Use case: online features for ML, real-time inference
 
 ---
 
-## Storage
+## 🏪 Data Storages
 
-| Type | Tools | Where it appears |
+| Type | Technologies | Where you will see it |
 |---|---|---|
-| OLTP | PostgreSQL, MySQL | backend systems |
-| OLAP | ClickHouse, Greenplum | analytics |
-| DWH | Snowflake, BigQuery | cloud analytics |
-| Data lake | S3 / HDFS + Parquet / Iceberg | large-scale ML |
-| Vector DB | Qdrant, Milvus, Weaviate, pgvector | LLM / RAG |
-| Feature store | Feast, custom platforms | production ML |
+| OLTP | PostgreSQL, MySQL | Any backend |
+| OLAP | ClickHouse, Greenplum | Yandex, Avito, X5 |
+| DWH | Snowflake, BigQuery (less common in Russia) | — |
+| Data Lake | S3 / HDFS + Parquet/Iceberg | Sber, T-Bank |
+| Vector DB | Qdrant (Russia!), Milvus, Weaviate | LLM/RAG |
+| Feature Store | Feast, in-house solutions | Yandex, Sber |
 
 ---
 
-## Checkpoint project
+## ✅ Checkpoint project
 
-Build an Airflow ETL pipeline:
-1. Pull data from a public API, for example job vacancies.
-2. Clean and enrich it with PySpark.
-3. Load it into PostgreSQL and ClickHouse.
-4. Build an analytics table for Superset or Metabase.
-5. Run it with `docker-compose`.
+An ETL pipeline in Airflow:
+1. Pulls data from a public API, for example hh.ru vacancies.
+2. Cleans/enriches it in PySpark.
+3. Loads it into PostgreSQL and ClickHouse.
+4. Builds a data mart for a dashboard (Superset/Metabase).
+5. Deploys through `docker-compose`.

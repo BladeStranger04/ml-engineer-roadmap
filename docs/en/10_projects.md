@@ -1,95 +1,95 @@
-# 10. Projects and portfolio
+# 🎯 10. Pet Projects and Portfolio
 
 > Russian version: [10_projects.md](../ru/10_projects.md)
 
-> Two or three strong GitHub projects are better than ten tutorial clones.
+> 2–3 **strong** GitHub projects do more for an offer than 10 YouTube tutorials. Quality > quantity.
 
 ---
 
-## What makes a project strong
+## 🏆 What Makes a Project Strong
 
-- Real problem, not MNIST classification.
-- Full cycle: data, model, deployment, monitoring.
-- Clean code: type hints, tests, lint, CI.
-- Documentation with an architecture diagram.
-- Metrics and baseline comparison.
-- Demo: video, Telegram bot, hosted service.
-- Reproducible run, for example `docker-compose up`.
-
----
-
-## Project ideas
-
-### Starting level
-1. Apartment price prediction for your city: parsing, CatBoost, SHAP, FastAPI.
-2. Resume or vacancy classifier: infer level or role from text.
-3. Churn prediction on an open dataset with MLflow and scheduled retraining.
-
-### Middle level
-4. CV classification or detection on your own dataset.
-5. Russian review classification with RuBERT fine-tuning.
-6. nanoGPT trained on a small Russian text corpus, with a detailed README.
-
-### Strong portfolio level
-7. RAG bot over a domain knowledge base: Qdrant, LLM API, Telegram.
-8. Recommender for movies, books, or products: two-tower, FAISS, A/B simulation.
-9. End-to-end MLOps platform: DVC, MLflow, Kubernetes, Prometheus, Evidently.
-10. LoRA fine-tune of Saiga or T-lite with vLLM serving and quality benchmark.
-
-### Robotics + ML
-11. RL agent for a manipulator in simulation, Isaac Sim or MuJoCo.
-12. Robot vision: detection, tracking, grasp prediction.
-13. Small VLA-style prototype in simulation.
+- ✅ **Real problem**, not an "MNIST classification" tutorial
+- ✅ Full cycle: **data → model → deploy → monitoring**
+- ✅ Clean code: typing, tests, lint, CI
+- ✅ Documentation: **README with an architecture diagram**
+- ✅ Metrics and comparison with baseline
+- ✅ Demo: video / Telegram bot / hosted service
+- ✅ **Reproducibility** (`docker-compose up`)
 
 ---
 
-## Project README template
+## 💡 Project Ideas: Junior to Middle
 
-```markdown
+### 🟢 Starter level (1–2 projects during Classical ML)
+1. **Apartment price prediction in your city** — CIAN/Avito parsing → CatBoost → SHAP → FastAPI
+2. **Resume classifier** — infer candidate grade from vacancy text via hh.ru API
+3. **Churn prediction** on an open dataset → MLflow + Airflow for retraining
+
+### 🟡 Middle level (Deep Learning)
+4. **CV classification / detection** on your own dataset: plant species, road signs, etc.
+5. **NLP review classification** in Russian with RuBERT fine-tuning
+6. **Your own nanoGPT** trained on a Russian literature corpus, with process notes in README
+
+### 🔴 "They will consider you for Middle" level
+7. **🔥 RAG bot over your own domain knowledge base** — Qdrant + GigaChat/YandexGPT + Telegram
+8. **🔥 Recommender** for anime/movies/books — two-tower + ANN (FAISS) + A/B simulation
+9. **🔥 End-to-end MLOps platform** — model + DVC + MLflow + k8s + Prometheus + Evidently
+10. **🔥 Fine-tune Saiga/T-lite through LoRA** for a concrete task + vLLM serving + quality benchmark
+
+### 🤖 Robotics + ML, if the area is interesting
+11. **RL agent** for a manipulator in simulation (Isaac Sim / MuJoCo)
+12. **Robot CV**: detection + tracking + grasp prediction
+13. **VLA (Vision-Language-Action)** — mini RT-2-like project in simulation
+
+---
+
+## 📁 Project README Template
+
+````markdown
 # Project Name
 
-> One-line project summary.
+> One-liner about the project
 
-## Problem
-What the project solves and why it matters.
+## 🎯 Task and Motivation
+…
 
-## Architecture
-Mermaid diagram or image.
+## 🏗️ Architecture
+[architecture diagram — mermaid or image]
 
-## Results
+## 📊 Results
 | Metric | Baseline | My model |
 |---|:---:|:---:|
 | F1 | 0.72 | **0.83** |
 | Latency p99 | 220 ms | **45 ms** |
 
-## Run
+## 🚀 Run
 ```bash
 docker-compose up
 ```
 
-## Stack
-Python, PyTorch, FastAPI, Docker, ...
+## 🧰 Stack
+Python, PyTorch, FastAPI, Docker, …
 
-## References
-- dataset: ...
-- model: ...
-- papers: ...
-```
-
----
-
-## Kaggle and competitions
-
-- Bronze in a tabular competition is a realistic 2-3 month target.
-- Silver is already a strong signal.
-- Russian alternatives: AI Journey Contest, Yandex Cup ML track, DataFest competitions.
+## 📚 What was used
+- dataset: …
+- model: …
+- paper links: …
+````
 
 ---
 
-## GitHub profile
+## 🏆 Kaggle / Competitions
 
-- [ ] Pin 3-6 best repositories.
-- [ ] Fill bio with CV or Telegram link.
-- [ ] Add a profile README repository.
-- [ ] Contribute to open source through issues, docs, or small PRs.
-- [ ] Good targets: PyTorch, Hugging Face, Qdrant, CatBoost, ClearML, Albumentations.
+- 🥉 **Bronze** in tabular data — realistic goal in 2–3 months
+- 🥈 Silver — already a strong Middle-level signal
+- Russian analogues: **AI Journey Contest** (Sber), **Yandex Cup** (ML track), **DataFest** competitions
+
+---
+
+## 🌟 GitHub Profile
+
+- [ ] Pin 3–6 best repos
+- [ ] Filled bio with CV/Telegram link
+- [ ] Custom profile README (`username/username` repo)
+- [ ] Contributions to open source, even issues/docs, are a **big plus**
+  - PyTorch, Hugging Face, Qdrant, CatBoost, ClearML, Albumentations

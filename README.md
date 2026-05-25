@@ -1,97 +1,169 @@
 <div align="center">
 
-# ML Engineer Roadmap 2026
+# 🤖 ML Engineer Roadmap 2026
 
-Roadmap from fundamentals to Senior ML Engineer, adapted for the Russian market.
+### Roadmap to Senior ML Engineer in the Russian market
 
 [Русская версия](docs/ru/01_foundations.md) · [English version](docs/en/01_foundations.md)
 
 ![Status](https://img.shields.io/badge/status-active-success?style=for-the-badge)
-![Level](https://img.shields.io/badge/level-junior_to_senior-blue?style=for-the-badge)
-![Market](https://img.shields.io/badge/market-Russia-red?style=for-the-badge)
+![Level](https://img.shields.io/badge/level-junior%E2%86%92senior-blue?style=for-the-badge)
+![Market](https://img.shields.io/badge/market-Russia%20%F0%9F%87%B7%F0%9F%87%BA-red?style=for-the-badge)
 ![Updated](https://img.shields.io/badge/updated-2026--05-orange?style=for-the-badge)
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![CatBoost](https://img.shields.io/badge/CatBoost-FFCC00?style=flat-square&logo=catboost&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/K8s-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
 
 </div>
 
 ---
 
-## About
+## 📍 About the roadmap
 
-This repository is a practical ML Engineer roadmap: Python, math, data engineering, classical ML, deep learning, LLM/RAG, MLOps, system design, career prep, and portfolio projects.
-
-Здесь публикованы материалы для получения оффера на ML Engineer.
-
-The content is split into two language versions:
-
-- [docs/ru](docs/ru) - original Russian version.
-- [docs/en](docs/en) - adapted English version.
+Materials for getting an ML Engineer offer.
 
 ---
 
-## Roadmap
+## 🗺️ Roadmap
 
 ```mermaid
 flowchart TD
-    A[Start] --> B[1. Foundations<br/>Python · Math · CS]
-    B --> C[2. Data<br/>SQL · Pandas · Spark]
-    C --> D[3. Classical ML<br/>sklearn · CatBoost · XGBoost]
-    D --> E[4. Deep Learning<br/>PyTorch · CV · NLP]
-    E --> F[5. Modern AI<br/>Transformers · LLM · RAG]
-    D --> G[6. MLOps<br/>Docker · K8s · MLflow · CI/CD]
+    A[🚀 Start] --> B[1️⃣ Foundations<br/>Python · Math · CS]
+    B --> C[2️⃣ Data<br/>SQL · Pandas · Spark]
+    C --> D[3️⃣ Classical ML<br/>sklearn · CatBoost · XGBoost]
+    D --> E[4️⃣ Deep Learning<br/>PyTorch · CV · NLP]
+    E --> F[5️⃣ Modern AI<br/>Transformers · LLM · RAG]
+    D --> G[6️⃣ MLOps<br/>Docker · K8s · MLflow · CI/CD]
     F --> G
-    G --> H[7. System Design<br/>ML systems]
-    H --> I[Junior ML Engineer]
-    I --> J[Middle ML Engineer]
-    J --> K[Senior / Lead]
+    G --> H[7️⃣ System Design<br/>for ML systems]
+    H --> I[💼 Junior ML Engineer<br/>120–200k ₽]
+    I --> J[💼 Middle ML Engineer<br/>200–350k ₽]
+    J --> K[💼 Senior / Lead<br/>350–800k+ ₽]
+
+    style A fill:#4A90E2,stroke:#fff,color:#fff
+    style I fill:#27AE60,stroke:#fff,color:#fff
+    style J fill:#16A085,stroke:#fff,color:#fff
+    style K fill:#8E44AD,stroke:#fff,color:#fff
 ```
 
 ---
 
-## Sections
+## 📚 Stages
 
-| # | Topic | RU | EN |
-|---|---|---|---|
-| 1 | Foundations: Python, algorithms, CS | [ru](docs/ru/01_foundations.md) | [en](docs/en/01_foundations.md) |
-| 2 | Math for ML | [ru](docs/ru/02_math.md) | [en](docs/en/02_math.md) |
-| 3 | Data Engineering for ML | [ru](docs/ru/03_data.md) | [en](docs/en/03_data.md) |
-| 4 | Classical ML | [ru](docs/ru/04_classical_ml.md) | [en](docs/en/04_classical_ml.md) |
-| 5 | Deep Learning | [ru](docs/ru/05_deep_learning.md) | [en](docs/en/05_deep_learning.md) |
-| 6 | Modern AI: NLP, LLM, RAG | [ru](docs/ru/06_modern_ai.md) | [en](docs/en/06_modern_ai.md) |
-| 7 | MLOps & Production | [ru](docs/ru/07_mlops.md) | [en](docs/en/07_mlops.md) |
-| 8 | ML System Design | [ru](docs/ru/08_system_design.md) | [en](docs/en/08_system_design.md) |
-| 9 | Career | [ru](docs/ru/09_career.md) | [en](docs/en/09_career.md) |
-| 10 | Projects and portfolio | [ru](docs/ru/10_projects.md) | [en](docs/en/10_projects.md) |
-| 11 | Resources | [ru](docs/ru/11_resources.md) | [en](docs/en/11_resources.md) |
-
----
-
-## Suggested pace
-
-- 12-18 months of active work to confident Middle level.
-- Math and algorithms should run in parallel with practical ML.
-- Every major block should end with a project.
-- Track progress in [PROGRESS.md](PROGRESS.md).
+| # | Section | Duration | EN | RU |
+|---|---|:---:|---|---|
+| 1 | 🐍 **Foundations** — Python, algorithms, CS | 1–2 months | [en](docs/en/01_foundations.md) | [ru](docs/ru/01_foundations.md) |
+| 2 | 📐 **Math for ML** | in parallel | [en](docs/en/02_math.md) | [ru](docs/ru/02_math.md) |
+| 3 | 🗄️ **Data Engineering for ML** | 1–2 months | [en](docs/en/03_data.md) | [ru](docs/ru/03_data.md) |
+| 4 | 🤖 **Classical ML** | 2–3 months | [en](docs/en/04_classical_ml.md) | [ru](docs/ru/04_classical_ml.md) |
+| 5 | 🧠 **Deep Learning** | 2–3 months | [en](docs/en/05_deep_learning.md) | [ru](docs/ru/05_deep_learning.md) |
+| 6 | 💬 **NLP, CV, LLM** | 2–3 months | [en](docs/en/06_modern_ai.md) | [ru](docs/ru/06_modern_ai.md) |
+| 7 | ⚙️ **MLOps & Production** | 2 months | [en](docs/en/07_mlops.md) | [ru](docs/ru/07_mlops.md) |
+| 8 | 🏗️ **ML System Design** | 1 month | [en](docs/en/08_system_design.md) | [ru](docs/ru/08_system_design.md) |
+| 9 | 💼 **Career in the Russian market** | continuous | [en](docs/en/09_career.md) | [ru](docs/ru/09_career.md) |
+| 10 | 🎯 **Pet projects and portfolio** | continuous | [en](docs/en/10_projects.md) | [ru](docs/ru/10_projects.md) |
+| 11 | 📖 **Resources** | — | [en](docs/en/11_resources.md) | [ru](docs/ru/11_resources.md) |
 
 ---
 
-## Interview checklist
+## 🎯 Approximate plan
 
-- [ ] Python: OOP, async, typing, tests
-- [ ] Algorithms: 100-150 Easy/Medium problems
-- [ ] SQL: windows, optimization, `EXPLAIN`
+```mermaid
+gantt
+    title Approximate 12-month plan
+    dateFormat  YYYY-MM-DD
+    axisFormat  %m.%y
+
+    section Foundations
+    Python advanced + algorithms   :a1, 2026-05-01, 45d
+    Math review + statistics       :a2, 2026-05-01, 60d
+
+    section Data
+    Advanced SQL + Pandas          :b1, after a1, 30d
+    Spark / Airflow basics         :b2, after b1, 30d
+
+    section ML
+    Classical ML + Kaggle competition :c1, after b1, 75d
+    Deep Learning with PyTorch        :c2, after c1, 75d
+    NLP / LLM / RAG                   :c3, after c2, 60d
+
+    section MLOps
+    Docker, FastAPI, MLflow, CI/CD :d1, after c2, 45d
+    K8s + serving, Triton/vLLM     :d2, after d1, 30d
+
+    section Career
+    Pet projects + GitHub          :e1, 2026-06-01, 300d
+    Internship / offer             :e2, 2026-11-01, 180d
+```
+
+---
+
+## 💰 Salary benchmarks, Russia 2026
+
+| Grade | Experience | Moscow, gross / month | Regions |
+|---|:---:|:---:|:---:|
+| 👶 Intern / Trainee | 0 | 60–120k ₽ | 40–80k ₽ |
+| 🚀 Junior | 0–1 year | 120–200k ₽ | 90–150k ₽ |
+| ⚡ Middle | 2–3 years | 200–350k ₽ | 150–280k ₽ |
+| 🔥 Senior | 4–6 years | 350–600k ₽ | 250–450k ₽ |
+| 👑 Lead / Staff | 6+ years | 600k–1M+ ₽ | 400–700k ₽ |
+
+> Sources: hh.ru, getmatch, Habr Career, Habr salary reports, ODS chats. Numbers depend on company, grade, and stack; LLM/CV roles usually pay above average.
+
+---
+
+## 🏢 Who hires ML Engineers in Russia
+
+<div align="center">
+
+| 🥇 Tier-1 | 🥈 Tier-2 | 🥉 Tier-3 |
+|:---:|:---:|:---:|
+| Yandex (Search, Alice, Shedevrum) | Avito | Wildberries |
+| Sber / SberAI (GigaChat, Kandinsky) | Ozon | X5 Tech |
+| T-Bank | MTS AI / MWS | Alfa-Bank |
+| VK (VK Tech, Marusia) | Kaspersky | Gazprombank Tech |
+| | Skoltech / AIRI | VTB, Sovcombank |
+
+</div>
+
+---
+
+## ✅ Interview readiness checklist
+
+- [ ] Python: OOP, async, typing, tests (`pytest`)
+- [ ] Algorithms: ~150 LeetCode Easy/Medium problems
+- [ ] SQL: window functions, optimization, EXPLAIN
 - [ ] Math: linear algebra, calculus, probability, statistics
-- [ ] Classical ML: metrics, validation, leakage, boosting
-- [ ] Deep Learning: backprop, CNN, Transformer, PyTorch
-- [ ] LLM: attention, KV-cache, RAG, LoRA
-- [ ] MLOps: Docker, FastAPI, MLflow, monitoring
-- [ ] System Design: recommender, search, fraud, NLP service
-- [ ] Portfolio: 2-3 strong GitHub projects
-- [ ] Kaggle or similar competition result
+- [ ] Classical ML: explain bias/variance, regularization, boosting internals
+- [ ] Deep Learning: implemented backprop, CNN, Transformer by hand
+- [ ] PyTorch: can write a train loop without copy-paste
+- [ ] LLM: attention, KV-cache, RAG, fine-tuning (LoRA)
+- [ ] MLOps: deployed a model with Docker + FastAPI + monitoring
+- [ ] System Design: studied 3+ cases: recommendations, search, fraud, NLP service
+- [ ] Portfolio: 2–3 strong pet projects on GitHub
+- [ ] Kaggle: 1+ competition with a Bronze+ medal
+- [ ] Resume on hh + getmatch + Habr Career
+
+---
+
+## 🧭 How to use this repository
+
+1. Go through sections **in order**, but study math and algorithms **in parallel**.
+2. Reinforce every topic with a **project**; see [10_projects.md](docs/en/10_projects.md).
+3. Every 2 weeks, review progress and update [PROGRESS.md](PROGRESS.md).
+4. Most resources are Russian-language and practical for the Russian market.
 
 ---
 
 <div align="center">
 
-Made for learning and portfolio building · 2026
+### ⭐ If this roadmap is useful, give it a star
+
+**Made for learning and portfolio building · 2026**
 
 </div>

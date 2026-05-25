@@ -1,77 +1,78 @@
-# 2. Math for ML
+# 📐 2. Math for ML
 
 > Russian version: [02_math.md](../ru/02_math.md)
 
-> **Goal:** understand what happens inside models, not just memorize formulas.
+> **Goal:** not just "know formulas", but **understand** what happens inside models. Yandex/Sber/T-Bank interviews can go deep on math.
 
 ---
 
-## Linear algebra
+## 🧩 Linear Algebra
 
-- [ ] Vectors, matrices, matrix operations
-- [ ] Dot product, vector product, norms
+- [ ] Vectors, matrices, operations
+- [ ] Dot product / cross product, norms
 - [ ] Rank, determinant, inverse matrix
 - [ ] Systems of linear equations, Gaussian elimination
-- [ ] Eigenvalues, eigenvectors, SVD, PCA
+- [ ] Eigenvalues and eigenvectors, SVD, PCA
 - [ ] Positive definite matrices
 
-**Resources:**
-- [Khan Academy: Linear Algebra](https://www.khanacademy.org/math/linear-algebra)
-- [3Blue1Brown: Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
-- [MIT 18.06 Linear Algebra](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/)
-- Strang, Introduction to Linear Algebra
+📚 **Resources:**
+- [Khan Academy — Linear Algebra](https://www.khanacademy.org/math/linear-algebra)
+- [3Blue1Brown — Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) (Russian subtitles)
+- [Yandex School of Data Analysis — ML Handbook](https://education.yandex.ru/handbook/ml)
+- Kostrikin, "Introduction to Algebra"
 
 ---
 
-## Calculus
+## 📈 Calculus
 
-- [ ] Derivatives, partial derivatives, gradients
-- [ ] Chain rule, the base of backpropagation
+- [ ] Derivatives, partial derivatives, gradient
+- [ ] Chain rule (the basis of backprop!)
 - [ ] Jacobian, Hessian
 - [ ] Taylor series
-- [ ] Multivariate optimization, Lagrangian
-- [ ] Convexity and convex functions
+- [ ] Multidimensional optimization, Lagrangian
+- [ ] Convexity, convex functions
 
-**Resources:**
-- [3Blue1Brown: Essence of Calculus](https://www.3blue1brown.com/topics/calculus)
-- [MIT 18.01 Single Variable Calculus](https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/)
-- [MIT 18.02 Multivariable Calculus](https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/)
+📚 **Resources:**
+- [MIPT — Calculus (Coursera/archive)](https://openedu.ru/)
+- 3Blue1Brown — Essence of Calculus
 
 ---
 
-## Probability and statistics
+## 🎲 Probability and Statistics
 
-- [ ] Probability spaces, conditional probability, Bayes theorem
-- [ ] Random variables and distributions: normal, Bernoulli, Poisson, exponential
-- [ ] Expectation, variance, covariance, correlation
-- [ ] Central limit theorem, law of large numbers
+> **The most important part** for ML interviews.
+
+- [ ] Probability spaces, conditional probability, Bayes
+- [ ] Random variables, distributions (normal, Bernoulli, Poisson, exponential)
+- [ ] Expected value, variance, covariance, correlation
+- [ ] CLT, law of large numbers
 - [ ] Point and interval estimates, MLE, MAP
-- [ ] Hypothesis testing: t-test, chi-square, Mann-Whitney
-- [ ] A/B testing: design, power, MDE, bootstrap
-- [ ] Causal inference basics
+- [ ] Hypothesis testing: t-test, χ², Mann-Whitney
+- [ ] A/B tests: design, power, MDE, bootstrap
+- [ ] Causal inference (introduction)
 
-**Resources:**
-- Wasserman, All of Statistics
-- [StatQuest](https://www.youtube.com/@statquest)
-- [Harvard Stat 110](https://projects.iq.harvard.edu/stat110)
-- [Seeing Theory](https://seeing-theory.brown.edu/)
+📚 **Resources:**
+- [Karpov course — A/B tests](https://karpov.courses/simulator-ab) — gold standard
+- [Yandex School of Data Analysis — Probability and Statistics](https://education.yandex.ru/handbook/ml)
+- Wasserman, "All of Statistics"
+- [Stepik — Fundamentals of Statistics (Anatoly Karpov)](https://stepik.org/course/76)
 
 ---
 
-## Optimization
+## ⚙️ Optimization
 
-- [ ] Gradient descent, SGD, Momentum, Adam, AdamW
-- [ ] Stochastic vs batch gradient descent
+- [ ] Gradient descent (SGD, Momentum, Adam, AdamW)
+- [ ] Stochastic GD vs batch GD
 - [ ] Learning rate schedules
 - [ ] L1/L2 regularization
-- [ ] Newton and quasi-Newton methods
+- [ ] Newton method, quasi-Newton methods
 - [ ] Constrained optimization
 
 ---
 
-## What you should be able to do
+## ✅ What you should be able to do by the end
 
-- Explain SVD and why it is useful in ML.
-- Derive linear regression through least squares.
-- Explain backpropagation through the chain rule.
-- Design an A/B test for a product case.
+- Explain **in simple words** what SVD is and why it is used in ML
+- **Derive** linear regression through least squares by yourself
+- Explain how **backpropagation** works through the chain rule
+- Design an **A/B test** for a given product case

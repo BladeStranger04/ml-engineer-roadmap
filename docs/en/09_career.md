@@ -1,99 +1,99 @@
-# 9. Career on the Russian market
+# 💼 9. Career in the Russian Market
 
 > Russian version: [09_career.md](../ru/09_career.md)
 
 ---
 
-## Strategy for students and early-career engineers
+## 🎯 Strategy for a Student / Beginner
 
-### What helps
-- Strong technical university background.
-- Solid math foundation.
-- Data engineering experience, which is rare for junior ML candidates.
-- Time before graduation to complete internships.
+### What works in your favor
+- 🎓 Top technical university (ITMO / MIPT / HSE / MSU / Skoltech) — recruiters notice it
+- 📐 Strong math foundation → DL and theory become easier
+- 🗄️ Data Engineering basics → a **rare** combination for a junior, makes the candidate more valuable
+- 💪 Time before graduation — opportunity to get an internship
 
-### 12-month plan
-1. Now to +3 months: finish math, classical ML, first Kaggle competition.
-2. +3 to +6 months: deep learning, one strong portfolio project, start applying for internships.
-3. +6 to +9 months: internship, LLM/RAG, MLOps.
-4. +9 to +12 months: get an offer or enter a strong ML school or master's program.
-
----
-
-## Where to look for work
-
-### Internships and junior pipelines
-- Yandex Internship
-- Sber / SberAI
-- T-Bank Generation
-- VK Education
-- Avito Tech
-- MTS True Tech
-- Ozon Tech Camp
-- Alfa-Bank programs
-- X5 Tech
-- Wildberries / Russ
-
-### Job boards
-- [hh.ru](https://hh.ru)
-- [getmatch.ru](https://getmatch.ru)
-- [Habr Career](https://career.habr.com)
-- [geekjob.ru](https://geekjob.ru)
-- Telegram channels: ODS Jobs, Data Science Jobs, ML Jobs RU
-
-### Extra tracks
-- Yandex School of Data Analysis
-- AI Talent Hub ITMO
-- AIRI
-- AI master's programs at ITMO, MIPT, HSE, Skoltech
+### Concrete 12-month plan
+1. **Now → +3 months**: finish math + classical ML + first Kaggle
+2. **+3 → +6 months**: DL + 1 strong pet project → apply for **internships**
+3. **+6 → +9 months**: internship + LLM/RAG + MLOps
+4. **+9 → +12 months**: get an **offer** (strong junior / junior-middle / middle) and/or enter **Yandex School of Data Analysis**
 
 ---
 
-## Resume
+## 🏢 Where to Look for Jobs
 
-- One page, no filler.
-- Put the tech stack near the top.
-- Describe projects with metrics: "improved precision from 0.72 to 0.81", "reduced p99 inference latency by 3.2x".
-- Pin your strongest GitHub projects.
-- Keep the resume direct and easy to scan.
+### Internships (must-apply, early 2026 → summer 2026)
+- **Yandex** — Yandex Internship, several tracks per year
+- **Sber** — School 21 / SberAI internships
+- **T-Bank Generation** + T-Bank IT
+- **VK Education**
+- **Avito Tech**
+- **MTS True Tech**
+- **Ozon Tech Camp**
+- **Alfa-Bank** — Alfa Future
+- **X5 Tech**
+- **Wildberries / Russ**
+
+### Platforms
+- 🎯 **[hh.ru](https://hh.ru)** — main platform
+- 🎯 **[getmatch.ru](https://getmatch.ru)** — IT offers, transparent salaries
+- 🎯 **[habr.com/career](https://career.habr.com)** — Habr Career
+- 🎯 **[geekjob.ru](https://geekjob.ru)**
+- 💬 **Telegram channels**: ODS Jobs, Data Science Jobs, ML Jobs RU
+
+### Additional tracks
+- 🎓 **Yandex School of Data Analysis** — admission ↔ almost guaranteed path to Yandex offers
+- 🎓 **AI Talent Hub ITMO** — AI programs
+- 🎓 **AIRI** — Skoltech + AI Research Institute
+- 🎓 **AI Master's degree** at ITMO / MIPT / HSE / Skoltech
+
+---
+
+## 📝 Resume: What Matters in Russia
+
+- 1 page, no fluff
+- **Technology stack** in a separate block near the top
+- Projects with **metrics**: "improved precision from 0.72 to 0.81", "sped up inference 3.2× with ONNX"
+- GitHub profile with **pinned** projects
+- No photo for Habr Career / getmatch; hh allows it
 
 ### Structure
-1. Contacts, Telegram, GitHub.
-2. Short summary, 3-4 lines.
-3. Skills and stack.
-4. Experience and projects.
-5. Education.
-6. Extra: competitions, articles, certificates.
+1. Contacts + Telegram + GitHub
+2. About me, 3–4 lines
+3. Skills / stack
+4. Experience / projects
+5. Education
+6. Extra: competitions, articles, certificates
 
 ---
 
-## Typical interview loop
+## 🎤 Typical Russian Interview Structure
 
-| Stage | What they ask | Prep |
+| Stage | What they ask | Preparation |
 |---|---|---|
-| HR | motivation, soft skills, level | prepare answers |
+| HR | motivation, soft skills, grade | prepare answers in advance |
 | Coding | LeetCode Easy/Medium | 100+ problems |
-| ML / DL theory | classical ML, DL, sometimes LLM | deep understanding |
-| ML System Design | product case | books and case practice |
-| Final | culture fit, questions | prepare your own questions |
+| ML/DL theory | classical + DL + sometimes LLM | deep, with derivations |
+| ML System Design | product case | books + cases |
+| Final / cross-team | culture fit, questions | prepare your own |
 
 ---
 
-## Negotiation
+## 💸 How to Negotiate
 
-- At junior level negotiation is limited, but 15-20% can be realistic.
-- Ask about the company's leveling system.
-- Compare 2-3 offers in parallel when possible.
-- Avoid naming your desired number too early.
-- Compare total compensation: salary, bonus, equity or stock-like grants.
+- At junior level there is not much room, but **±15–20%** is realistic
+- Clarify the company's **grading system**
+- Compare 2–3 offers **in parallel**, even if you like the main one
+- **Do not name** your current/desired number first at early stages
+- Count **total comp**: salary + bonuses + equity-like compensation; Yandex/Sber may have RSU analogues
 
 ---
 
-## Communities
+## 🗣️ Communities
 
-- ODS.ai Slack
-- ML Trainings by Yandex
-- Data Coffee podcast
-- AI Today
-- Local meetups and university labs
-- ML Party, Data Fest, AI Journey
+- **ODS.ai** — Slack, the #1 Russian-language ML community
+- **ML Trainings** — Yandex meetups
+- **Data Coffee** — podcast
+- **AI Today** — Telegram
+- Local meetups and student labs at technical universities
+- Local events: ML Party (T-Bank), Data Fest, AI Journey (Sber)
